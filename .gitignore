@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+*.so
+
+# Data (large rasters — track separately or via DVC)
+/data/
+/resampled/
+/mask/
+/mtbs/
+/treeCover/
+/spei/
+/spei1y/
+/terrain/
+/mask_drylands/
+/data_test/
+
+# Outputs
+/output*/
+
+# Conda / local environments
+/hmm_env/
+
+# Logs
+*.log
+
+# Internal / working documents
+/critique/
+/PROGRESS.md
+/V2_Evaluation.md
+
+# Claude Code session files
+.claude/
+
+# IDE
+.vscode/
+.idea/
